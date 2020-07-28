@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">NoticeBoard</string>
+
+    <!--ChooseActivity-->
+    <string name="choose_student">Student</string>
+    <string name="choose_faculty">Faculty</string>
+
+    <!--Faculty Login-->
+    <string name="faculty_login_logo_content">logo here</string>
+    <string name="faculty_login_user">Email...</string>
+    <string name="faculty_login_password">Password...</string>
+    <string name="faculty_login_button">Login</string>
+
+    <!--Faculty Main-->
+    <string name="faculty_main_title_activity">FacultyMain</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Search</string>
+
+    <!--Navigation Drawer-->
+    <string name="noticeboard">KIT Notice Board</string>
+    <string name="pinned">Pinned Notice</string>
+    <string name="reminders">Reminders</string>
+    <string name="archives">Archives</string>
+    <string name="myprofile">My Profile</string>
+    <string name="logout">Logout</string>
+
+    <!--Notice categories-->
+    <string-array name="category">
+        <item>General</item>
+        <item>Central</item>
+        <item>Staff</item>
+        <item>Computer Science and Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Electronics Engineering</item>
+        <item>Biotechnology Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Electronics and Telecommunication Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Production Engineering</item>
+        <item>Information Technology</item>
+    </string-array>
+
+    <!--Create Notice-->
+    <string name="title_activity_create_notice">CreateNotice</string>
+    <string name="subject">Subject</string>
+    <string name="summary">Summary</string>
+    <string name="end_date">End date</string>
+    <string name="choose">Choose</string>
+    <string name="category">Category</string>
+    <string name="takephoto">Capture Image</string>
+    <string name="uploadphoto">Choose Image</string>
+    <string name="uploadpdf">Choose PDF</string>
+    <string-array name="categories">
+        <item>Choose Category</item>
+        <item>General</item>
+        <item>Central</item>
+        <item>Staff</item>
+        <item>Computer Science and Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Electronics Engineering</item>
+        <item>Biotechnology Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Electronics and Telecommunication Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Production Engineering</item>
+        <item>Information Technology</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>All</item>
+        <item>Computer Science and Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Electronics Engineering</item>
+        <item>Biotechnology Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Electronics and Telecommunication Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Production Engineering</item>
+        <item>Information Technology</item>
+    </string-array>
+
+    <!--PDF View-->
+    <string name="title_activity_pdf_view">PdfView</string>
+    <string name="title_activity_create_reminders">CreateReminders</string>
+
+    <!--My Profile-->
+    <string name="myprofile_email">Email</string>
+    <string name="title_activity_recieve_notification">RecieveNotification</string>
+    <string name="title_activity_view_notice">ViewNotice</string>
+    <string name="title_activity_image_viewer">ImageViewer</string>
+    <string name="changepassword"><u>Change Password</u></string>
+    <string-array name="departments">
+        <item>Computer Science and Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Electronics Engineering</item>
+        <item>Biotechnology Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Electronics and Telecommunication Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Production Engineering</item>
+        <item>Information Technology</item>
+        <item>General</item>
+    </string-array>
+    <string-array name="role">\
+        <item>Assistant Professor</item>
+        <item>Librarian</item>
+        <item>HOD</item>
+    </string-array>
+</resources>

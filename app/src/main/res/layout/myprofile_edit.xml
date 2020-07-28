@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".faculty_main_ui.myprofile.EditProfile">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/myprofile_edit_wallpaper">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/change_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/myprofile_edit_image"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#C2A9F3"
+        />
+
+    <TextView
+        android:id="@+id/myprofile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MR ajay kapse"
+        android:layout_below="@id/profile_pic"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#2A0594"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/myprofile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myprofile_name"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#2A0594"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        />
+
+    <Spinner
+        android:layout_below="@id/myprofile_email"
+        android:background="#fff"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/myprofile_role"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <Spinner
+        android:layout_below="@id/myprofile_role"
+        android:background="#fff"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/myprofile_department"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myprofile_edit"
+        android:text="done"
+        android:layout_below="@id/myprofile_department"
+        android:layout_centerHorizontal="true"
+        android:background="#9BF73B"
+        android:layout_marginTop="25dp"
+        />
+
+</RelativeLayout>
+</RelativeLayout>

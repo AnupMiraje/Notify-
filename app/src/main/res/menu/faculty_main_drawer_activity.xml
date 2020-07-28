@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/faculty_main_noticeboard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/noticeboard" />
+        <item
+            android:id="@+id/faculty_main_pinned"
+            android:icon="@drawable/notice_pin_red"
+            android:title="@string/pinned" />
+        <item
+            android:id="@+id/faculty_main_reminders"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/reminders" />
+        <item
+            android:id="@+id/faculty_main_archives"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/archives" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/faculty_main_myprofile"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/myprofile"
+                />
+            <item
+                android:id="@+id/faculty_main_logout"
+                android:icon="@drawable/faculty_logout"
+                android:title="@string/logout"
+                />
+        </menu>
+    </item>
+
+</menu>

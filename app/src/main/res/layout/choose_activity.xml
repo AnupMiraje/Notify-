@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/choose_activity_relative_layout"
+    android:background="@drawable/choose_background"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ChooseActivity"
+    >
+
+    <Button
+        android:id="@+id/choose_activity_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/choose_student_background"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:text="@string/choose_student"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choose_activity_faculty"
+        android:text="@string/choose_faculty"
+        android:layout_below="@id/choose_activity_student"
+        android:background="@drawable/choose_faculty_background"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        />
+
+</RelativeLayout>

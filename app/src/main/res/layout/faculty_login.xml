@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyLogin"
+    android:background="#ff4fff"
+    >
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80sp"
+        android:id="@+id/faculty_login_logo"
+        android:src="@drawable/faculty_login_logo"
+        android:contentDescription="@string/faculty_login_logo_content"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:id="@+id/faculty_login_user"
+        android:maxLines="1"
+        android:drawableStart="@drawable/faculty_login_user"
+        android:layout_below="@id/faculty_login_logo"
+        android:hint="@string/faculty_login_user"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/faculty_login_password"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:layout_marginTop="60sp"
+        android:id="@+id/faculty_login_password"
+        android:hint="@string/faculty_login_password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/faculty_login_user"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:id="@+id/faculty_login_button"
+        android:text="@string/faculty_login_button"
+        android:layout_below="@+id/faculty_login_password"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/faculty_login_button"
+        />
+
+</RelativeLayout>
